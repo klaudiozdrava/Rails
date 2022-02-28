@@ -1,0 +1,26 @@
+
+
+
+<% unless @users.nil? %>
+<% @users.each do |friend| %>
+ <div class="row">
+   <div class="col">
+     <h4> <%= friend.username %>
+
+     </h4>
+
+   </div>
+
+  <div class="col">
+
+    <%= link_to friend , remote: true do %>
+  <button class="btn100" onclick="openForm()"><i class="fa fa-envelope" aria-hidden="true"></i>
+  </button>
+    <% end %>
+
+  </div>
+
+
+ </div>
+ <% end %>
+<% end %>
