@@ -1,8 +1,8 @@
-# README
+# Ruby on Rails
 
-I have created an interactive service-oriented management team and composition software. It is a system in which one can upload posts can find posts and also can send and accept friend requests.
-I have used bootstrap,html and css for frontend.
-This project it is made with MVC architecture.
+An interactive service-oriented management team and composition software as a University assigment. 
+It is a system that allow users to upload and find existing posts. 
+Another feature of the app is giving the opportunity to send and accept friend requests between different users.
 
 The Login Page should look something like that :
 
